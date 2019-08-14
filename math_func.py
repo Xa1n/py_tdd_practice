@@ -9,3 +9,5 @@ def subtract(x, y=0):
 def multiply(x, y=1):
     return x * y
 
+def divide(x, y=1):
+    return x / y

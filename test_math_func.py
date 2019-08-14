@@ -14,3 +14,7 @@ def test_multiply():
     assert math_func.multiply(100, 5) == 500
     assert math_func.multiply(100) == 100
 
+def test_divide():
+    assert math_func.divide(40, 2) == 20
+    assert math_func.divide(2, 40) == 0.05
+    assert math_func.divide(2) == 2
